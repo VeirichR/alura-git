@@ -6,3 +6,11 @@ git commit -m "mensagem do Commit"
 
 Ai a cada modificacao do arquivo deve se dar o git add
 depois dar o commit dizendo o que foi editado
+
+git log para ver os commits
+git log --oneline
+git log -p
+
+git config --local ou --global
+git config --local user.name "Renato"
+git config --global user.email "renato.veirich@gmail.com"
