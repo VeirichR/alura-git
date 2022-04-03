@@ -1,3 +1,8 @@
 criar repositorio
 
 salvar o arquivo no git, git add
+Commit - modificacoes e mensagens
+git commit -m "mensagem do Commit"
+
+Ai a cada modificacao do arquivo deve se dar o git add
+depois dar o commit dizendo o que foi editado
