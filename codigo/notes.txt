@@ -14,3 +14,24 @@ git log -p
 git config --local ou --global
 git config --local user.name "Renato"
 git config --global user.email "renato.veirich@gmail.com"
+
+* Nunca comitar um codigo que nao funciona
+* A cada alteracao significativa deve-se fazer o commit, mas nao tem regra
+sobre isso
+
+
+servidor para repositorio remoto
+git init --bare para iniciar o servidor
+git remote para listar os servidores
+git remote add nome_servidor endereco
+*o endereco pode ser qualquer coisa, um html, uma pasta no computador, um url
+de um servidor na web
+
+se alguem quiser baixar o que esta no servidor usa git clone e o endereco
+do servidor
+
+Para enviar os arquivos para o servidor
+git push nome_servidor branch(master no caso)
+
+para pegar os arquivos do servidor
+git pull nome_servidor branch(master no caso)
