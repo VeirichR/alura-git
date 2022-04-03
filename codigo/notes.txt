@@ -1,0 +1,3 @@
+criar repositorio
+
+salvar o arquivo no git, git add
